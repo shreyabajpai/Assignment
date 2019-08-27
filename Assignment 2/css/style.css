@@ -16,8 +16,12 @@
 }
 #search{
     width: 100%;
-    
+    color: lightgray;
     margin: 0;
+   
+}
+#search img{
+    color: gray;
 }
 ::placeholder {
     width: 100%;
