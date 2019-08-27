@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img{
+    height: 9vh;
+    width: 5vw;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar ul li{
+    display: inline;
+    padding: 1em;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    margin-left: 1vw;
+}
+
+.img1{
+    width: 3vw;
+    height: 5vh;
+    padding: 2px;
+}
+
+.navbar ul li a:hover{
+    color: aqua;
+    padding-bottom: 10px;
+    border-bottom: 10px;
+}
+
+.profile img{
+    height: 50vh;
+    width: 19vw;
+    margin-top: 15px;
+    padding: 1em;
+    border: 1px solid gray;
+}
+
+.container3{
+   
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tab ul{
+    list-style-type: none;
+    border-bottom: 2px solid darkgray;
+    margin-top: 0em;
+    margin-right: 38em;
+    width: 100%;
+}
+
+.tab ul li{
+    display: inline;
+    padding: 1em;
+}
+
+.tab ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5em;
+    margin-left: -2.7em;
+    padding: 1em;
+}
+
+.tab ul li a:hover{
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    
+}
+.flexcontainer{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-right: 25em;
+}
+
+.text ul{
+    list-style-type: none;
+    width: 100%;
+    margin-top: 1em;
+    margin-left: 5em;
+}
+
+.text ul li{
+    display: inline;
+    
+    margin-left: -15em;
+    
+}
+
+.card{
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin-top: 1em;
+    
+}
+.card-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+.box{
+    border: 2px solid lightgray;
+    width: 100%;
+    padding: 1em;
+}
+.flexcontainer2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: left;
+    margin-left: 1em;
+}
+.name{
+    font-size: 2em;
+    color: gray;
+    margin-left: 1em;
+}
+.btn button{
+    height: 7vh;
+    width: 20vw;
+    margin-left: 0.7em;
+}
+/* .tab1 {
+    margin-left: 2em;
+    display: inline-flex;
+    flex-direction: column;
+    border: 2px solid gray;
+} */
